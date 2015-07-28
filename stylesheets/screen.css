@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-stretch: normal;
 }
 @font-face {
-  font-family: 'open_sansregular';
+  font-family: 'opensansregular';
   src: url("../fonts/opensans-regular-webfont.eot");
   src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");
   font-weight: normal;
@@ -2462,7 +2462,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*pages*/
 /*reset*/
 body, html {
-  font: "open_sansregular", Arial, Helvetica, sans-serif;
+  font: 15px/20px "opensansregular", Arial, sans-serif;
   color: #000;
   height: 100%;
 }
@@ -2516,7 +2516,7 @@ header .header-top .container .tabs li {
   float: left;
 }
 header .header-top .container .tabs li a {
-  font-family: "open_sansregular";
+  font-family: "opensansregular", Arial, sans-serif;
   color: #d9d9d9;
   display: block;
   padding: 16px 20px 20px;
@@ -2541,7 +2541,7 @@ header .header-top .container .help-bar ul li:first-child {
   margin-left: 0;
 }
 header .header-top .container .help-bar ul li a {
-  font-family: "open_sansregular";
+  font-family: "opensansregular", Arial, sans-serif;
   color: #999999;
   font-size: 13px;
 }
@@ -2564,7 +2564,7 @@ header .header-body .container .progress-holder {
 header .header-body .container .progress-holder strong.percent {
   opacity: 0.8;
   font-size: 24px;
-  font-family: "open_sansregular";
+  font-family: "opensansregular", Arial, sans-serif;
   color: #fff;
 }
 header .header-body .container .progress-holder strong.percent span {
@@ -2586,6 +2586,9 @@ header .header-body .container .progress-holder .progress-field li {
   opacity: 0.7;
   text-align: center;
   background: rgba(105, 162, 153, 0.5);
+}
+header .header-body .container .progress-holder .progress-field li:hover {
+  opacity: 1;
 }
 header .header-body .container .progress-holder .progress-field li a {
   display: block;
@@ -2902,8 +2905,6 @@ header .header-body .container .progress-holder .settings span i {
 @media screen and (max-width: 768px) {
   .container {
     width: 768px;
-    margin-left: 2%;
-    margin-right: 2%;
   }
 
   header .header-body .container .progress-holder .progress-field {
@@ -2922,6 +2923,10 @@ header .header-body .container .progress-holder .settings span i {
     margin-right: 3%;
   }
 
+  #content .headline {
+    width: 90%;
+    margin: 0 5%;
+  }
   #content .headline ul {
     margin-right: 5%;
   }
@@ -2940,5 +2945,26 @@ header .header-body .container .progress-holder .settings span i {
   #content .info-section .container .row .info-card {
     background: #fff;
     border-radius: 30px;
+  }
+  #content .info-section .container .row .info-card .wrap {
+    flex-direction: column;
+  }
+  #content .info-section .container .row .info-card .wrap .photo-holder {
+    width: 80%;
+    margin: 0 10%;
+  }
+  #content .info-section .container .row .info-card .wrap .info-holder {
+    width: 80%;
+    margin: 0 10%;
+  }
+  #content .info-section .container .row .info-card .wrap .info-holder ul li i {
+    font-size: 30px;
+  }
+  #content .info-section .container .row p {
+    width: 80%;
+    margin: 0 10%;
+  }
+  #content .info-section .container .row .image-holder {
+    margin: 0 8%;
   }
 }

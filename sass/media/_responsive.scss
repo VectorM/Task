@@ -1,8 +1,7 @@
 @media screen and (max-width: 768px) {
 	.container{
 		width: 768px;
-		margin-left:2%;
-		margin-right: 2%;
+
 	}
 	header{
 
@@ -35,7 +34,8 @@
 	#content{
 
 		.headline{
-
+			width: 90%;
+			margin:0 5%;
 			ul{
 				margin-right: 5%;
 
@@ -60,6 +60,36 @@
 					.info-card{
 						background: #fff;
 						border-radius: 30px;
+
+						.wrap{
+							flex-direction:column;
+
+							.photo-holder{
+								width: 80%;
+								margin:0 10%;
+							}
+							.info-holder{
+								width: 80%;
+								margin:0 10%;
+
+								ul{
+
+									li{
+
+										i{
+											font-size: 30px;
+										}
+									}
+								}
+							}
+						}
+					}
+					p{
+						width: 80%;
+						margin:0 10%;
+					}
+					.image-holder{
+						margin:0 8%;
 					}
 				}
 			}
