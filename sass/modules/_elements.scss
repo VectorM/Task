@@ -1,0 +1,30 @@
+/*fonts*/
+$font-reg:'open_sansregular';
+$font-semib:'open_sanssemibold';
+$font-light:'open_sanslight';
+$font-italic:'open_sansitalic';
+$font-litalic:'open_sanslight_italic';
+/*colors*/
+$color-gray:#999999;
+$color-lgreen:#80bab1;
+$color-dgreen:#659f96;
+$color-lgray:#d9d9d9;
+$color-dark:#262626;
+$color-teal:#00a68a;
+$color-pink:#e56a93;
+$color-navy:#2ea8e5;
+$color-error:#f14d5b;
+$color-red:#e50000;
+/*responsive*/
+.container{
+	width: 960px;
+	margin:0 auto;
+}
+
+/*texts*/
+.ar {
+	text-align:right;
+}
+.al {
+	text-align:left;
+}

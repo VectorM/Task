@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) {
+	.container{
+		width: 768px;
+		margin-left:2%;
+		margin-right: 2%;
+	}
+	header{
+
+		.header-body{
+
+			.container{
+
+				.progress-holder{
+
+					.progress-field{
+						width: 60%;
+						margin:auto;
+						flex-direction:column;
+
+						li{
+							border-bottom: 1px solid $color-dgreen;
+							width: 100%;
+						}
+					}
+					strong.percent{
+						margin-left: 3%;
+					}
+					a.settings{
+						margin-right: 3%;
+					}
+				}
+			}
+		}
+	}
+	#content{
+
+		.headline{
+
+			ul{
+				margin-right: 5%;
+
+				li{
+
+					.changes-btn{
+						min-width: 80px;
+						padding:10px 5px;
+					}
+				}
+			}
+		}
+		.info-section{
+
+			.container{
+				flex-direction:column;
+				align-items:center;
+
+				.row{
+					width: 100%;
+					margin-left: 0;
+					.info-card{
+						background: #fff;
+						border-radius: 30px;
+					}
+				}
+			}
+		}
+	}
+}
