@@ -2450,6 +2450,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 0 auto;
 }
 
+.txt {
+  background: none;
+}
+
 /*texts*/
 .ar {
   text-align: right;

@@ -4,6 +4,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/script.js"></script>
 	<title>TITLE</title>
 	<!--[if IE]>
 		<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -93,7 +95,7 @@
 					<h2>Patient Info</h2>
 					<ul>
 					<li><a class="sec-compl" href="#"><i class="fa fa-check"></i>Section complete</a></li>
-					<li><a class="changes-btn" href="#"><i class="fa fa-pencil"></i>Make changes</a></li>
+					<li><a class="changes-btn medical-btn" href="#"><i class="fa fa-pencil"></i>Make changes</a></li>
 					</ul>
 				</div>
 			</div>
@@ -114,14 +116,14 @@
 									<a class="add-photo" href="#"><i class="fa fa-camera"></i> Add a photo</a>
 								</div>
 								<div class="info-holder">
-									<ul>
-										<li><i class="fa fa-home"></i><input type="text"></li>
-										<li><input type="text"></li>
-										<li><input type="text"></li>
-										<li><i class="fa fa-phone"></i><input type="text"></li>
-										<li><input type="text"></li>
-										<li><i class="fa fa-sun-o"></i><input type="text"></li>
-										<li><input type="text"></li>
+									<ul class="medical-profile-card">
+										<li><i class="fa fa-home"></i><input type="text" class="txt" disabled name="userName"></li>
+										<li><input type="text" class="txt" disabled name="nameAdd"></li>
+										<li><input type="text" class="txt" disabled name="nameAdd1"></li>
+										<li><i class="fa fa-phone"></i><input type="text" class="txt" disabled name="userPhone"></li>
+										<li><input type="text" class="txt" disabled name="phoneAdd"></li>
+										<li><i class="fa fa-sun-o"></i><input type="text" class="txt" disabled name="userMail"></li>
+										<li><input type="text" class="txt" disabled name="mailAdd"></li>
 									</ul>
 								</div>
 							</div>
@@ -151,13 +153,13 @@
 								</div>
 								<div class="info-holder">
 									<ul>
-										<li><i class="fa fa-user"></i><input type="text"></li>
-										<li><input type="text"></li>
-										<li><i class="fa fa-tablet"></i><input type="text"></li>
-										<li><input type="text"></li>
-										<li><input type="text"></li>
-										<li><input type="text"></li>
-										<li><i class="fa fa-phone"></i><input type="text"></li>
+										<li><i class="fa fa-user"></i><input type="text" class="txt" disabled></li>
+										<li><input type="text" class="txt" disabled></li>
+										<li><i class="fa fa-tablet"></i><input type="text" class="txt" disabled></li>
+										<li><input type="text" class="txt" disabled></li>
+										<li><input type="text" class="txt" disabled></li>
+										<li><input type="text" class="txt" disabled></li>
+										<li><i class="fa fa-phone"></i><input type="text" class="txt" disabled></li>
 									</ul>
 								</div>
 							</div>
@@ -172,13 +174,13 @@
 								</div>
 								<div class="info-holder">
 									<ul>
-										<li><i class="fa fa-graduation-cap"></i><input type="text"></li>
-										<li><input type="text"></li>
-										<li><i class="fa fa-building-o"></i><input type="text"></li>
-										<li><input type="text"></li>
-										<li><input type="text"></li>
-										<li><input type="text"></li>
-										<li><i class="fa fa-phone"></i><input type="text"></li>
+										<li><i class="fa fa-graduation-cap"></i><input type="text" class="txt" disabled></li>
+										<li><input type="text" class="txt" disabled></li>
+										<li><i class="fa fa-building-o"></i><input type="text" class="txt" disabled></li>
+										<li><input type="text" class="txt" disabled></li>
+										<li><input type="text" class="txt" disabled></li>
+										<li><input type="text" class="txt" disabled></li>
+										<li><i class="fa fa-phone"></i><input type="text" class="txt" disabled></li>
 									</ul>
 								</div>
 							</div>
@@ -209,15 +211,15 @@
 							<ul>
 								<li>
 									<span>MEMBER NAME: </span>
-									<input type="text">
+									<input type="text" class="txt" disabled>
 								</li>
 								<li>
 									<span>Member id: </span>
-									<input type="text">
+									<input type="text" class="txt" disabled>
 								</li>
 								<li>
 									<span>Group Number: </span>
-									<input type="text">
+									<input type="text" class="txt" disabled>
 								</li>
 								<li class="warn">
 									<span>Effective Date: </span>
@@ -237,23 +239,23 @@
 								<ul>
 									<li>
 										<span>MEMBER NAME:</span>
-										<input type="text">
+										<input type="text" class="txt" disabled>
 									</li>
 									<li>
 										<span>relationship: </span>
-										<input type="text">
+										<input type="text" class="txt" disabled>
 									</li>
 									<li>
 										<span>Member id:</span>
-										<input type="text">
+										<input type="text" class="txt" disabled>
 									</li>
 									<li>
 										<span>Group Number: </span>
-										<input type="text">
+										<input type="text" class="txt" disabled>
 									</li>
 									<li>
 										<span>Effective Date: </span>
-										<input type="text">
+										<input type="text" class="txt" disabled>
 									</li>
 								</ul>
 							</div>
