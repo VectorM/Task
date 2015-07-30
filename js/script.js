@@ -12,28 +12,23 @@ $(document).ready(function () {
   };
 
   whiteList();
+
+  $('.medical-btn').on('click', function(){
+    $('ul li input').removeAttr("disabled")
+  });
   var user = {};
-  
   $('.txt').on('keyup', function(){
 
       var key = $(this).attr("name")
       var value = $(this).val();
 
       user[key] = value;
-
+      
       // user.name = value;
 
       localStorage.setItem('users', JSON.stringify(user));
      });
 
-  // var user = {
 
-  //     name: $('input[name=userName]').val(),
-  //     phone: $('input[name=userPhone]').val(),
-  //     mail: $('input[name=userMail]').val()
-
-  // }
-
-  // localStorage.setItem('users', JSON.stringify(user));
-
+  console.log(user[key]);
 });
